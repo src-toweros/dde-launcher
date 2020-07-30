@@ -58,5 +58,5 @@ sed -i 's|lrelease|lrelease-qt5|' translate_generation.sh
 %{_includedir}/%{name}/
 
 %changelog
-* Wed Jun 10 2020 uoser <uoser@uniontech.com> - 5.1.0.6
-- Update to 5.1.0.6
+* Thu Jul 30 2020 openEuler Buildteam <buildteam@openeuler.org> - 5.1.0.6-1
+- Package init
