@@ -1,12 +1,12 @@
 %global sname deepin-launcher
 
 Name:           dde-launcher
-Version:        5.1.0.6
-Release:        3
+Version:        5.3.0.23
+Release:        1
 Summary:        Deepin desktop-environment - Launcher module
 License:        GPLv3
 URL:            http://shuttle.corp.deepin.com/cache/repos/eagle/release-candidate/RERFNS4wLjAuNjU3NQ/pool/main/d/dde-launcher/
-Source0:        http://shuttle.corp.deepin.com/cache/repos/eagle/release-candidate/RERFNS4wLjAuNjU3NQ/pool/main/d/%{name}/%{name}_%{version}.orig.tar.xz	
+Source0:        %{name}_%{version}.orig.tar.xz
 
 BuildRequires:  cmake
 BuildRequires:  cmake(Qt5LinguistTools)
@@ -58,6 +58,9 @@ sed -i 's|lrelease|lrelease-qt5|' translate_generation.sh
 %{_includedir}/%{name}/
 
 %changelog
+* Thu Jul 08 2021 weidong <weidong@uniontech.com> - 5.3.0.23-3
+- update 5.3.0.23
+
 * Thu Sep 3 2020 weidong <weidong@uniontech.com> - 5.1.0.6-3
 - fix source url in spec
 
@@ -66,3 +69,4 @@ sed -i 's|lrelease|lrelease-qt5|' translate_generation.sh
 
 * Thu Jul 30 2020 openEuler Buildteam <buildteam@openeuler.org> - 5.1.0.6-1
 - Package init
+
