@@ -1,22 +1,23 @@
 # dde-launcher
 
 #### Description
-dde launcher
+dde launcher: Launcher helps you manage all the installed applications, where you can quickly find an application by category navigation or by a search
 
 #### Software Architecture
 Software architecture description
 
 #### Installation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  dnf install dde-launcher 
 
 #### Instructions
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  Switch Launcher Modes,There are two display modes of Launcher: fullscreen mode and mini mode. Click the icon at the upper right corner to switch modes.
+2.  Sort Applications,In fullscreen mode, all applications in Launcher are listed by the installation time by default. You can sort the application icons as the ways below,Hover the cursor over an application icon, hold down the left key of mouse, drag and drop the application icon to arrange it freely.
+3.  Find Applications,If you already know the application name, just search for it.
+4.  Create App Shortcut,Select Send to desktop to create a shortcut on the desktop.Select Send to dock to fix the application icon in Dock.
+5.  Run Applications,Click the application icon in Dock or right-click it and select  open.
+6.  For the frequently-used applications, right-click the app icon and select Add to startup to run it when the computer boots.
 
 #### Contribution
 
